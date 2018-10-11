@@ -64,11 +64,24 @@ a:hover {
     padding-top: 168px;
 }
 
+.search-wrapper {
+    position: relative;
+}
+
+.search-wrapper img {
+    position: absolute;
+    top: 28px;
+    left: 980px;
+    height: 20px;
+    width: auto;
+    
+}
+
 .search-bar {
 	position: relative;
 	left: 31%;
 	height: 44px;
-	width: 584px;
+	width: 570px;
 	font-size: medium;
 	box-shadow: 0px 1px 0px 0px #d2d5db;
 	border-radius: 2%;
@@ -79,6 +92,8 @@ a:hover {
 	box-shadow: -1px 2px 3px 0px #d2d5db;
 }
 
+
+
 .buttons {
 	position: relative;
 	left: 40%;
@@ -87,7 +102,7 @@ a:hover {
 
 .search-button {
 	height: 34px;
-	width: 126px;
+	width: 128px;
 	padding: 0 16px;
 	border: 1px;
 	margin: 11px 4px;
@@ -99,7 +114,7 @@ a:hover {
 
 .lucky-button {
 	height: 34px;
-	width: 142px;
+	width: 145px;
 	padding: 0 16px;
 	border: 1px;
 	margin: 11px 4px;
@@ -110,7 +125,7 @@ a:hover {
 }
 
 .buttons button:hover {
-	border: .5px solid gray;
+	border: .5px solid lightgray;
 	color: black;
 
 }
@@ -143,5 +158,10 @@ a:hover {
 
 .bottom-nav__right {
 	position: absolute;
-	right: 100px;
+	right: 30px;
+	top: 12px;
+}
+
+.bottom-nav__right a {
+	padding-left: 25px;
 }
